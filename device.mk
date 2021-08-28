@@ -24,6 +24,10 @@ $(call inherit-product-if-exists, vendor/samsung/s3ve3gds/s3ve3gds-vendor.mk)
 PRODUCT_PACKAGES += \
     libshim_imx175
 
+# Device Features
+PRODUCT_PACKAGES += \
+    DeviceFeatures
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
